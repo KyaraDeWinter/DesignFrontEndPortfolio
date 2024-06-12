@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="w-full mt-20 h-full w-full bg-gray-200 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20">
+    <div className="w-full mt-20 h-full w-full bg-gray-200 bg-clip-padding backdrop-filter backdrop-blur-md">
       <div className="flex flex-row items-center gap-20 w-full p-20 pl-96 shadow-2xl bottom-0 sticky" style={{ minHeight: "150px" }}>
         <div>
           <Image src="/images/profile.png" width={125} height={125} style={{ borderRadius: "50%" }} alt="Profile picture of Kyara de Winter" />

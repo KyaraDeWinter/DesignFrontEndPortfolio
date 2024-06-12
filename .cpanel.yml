@@ -1,5 +1,5 @@
 ---
-# :)
 deployment:
-  tasks: 
+  tasks:
   - export DEPLOYPATH=/home/kyaradew/public_html
+  - cp -r /home/kyaradew/repositories/DesignPortfolio /home/kyaradew/public_html
