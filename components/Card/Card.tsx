@@ -13,14 +13,17 @@ interface CardProps {
 
 const Card = ({ text, image }: CardProps) => {
   return (
-    <div className="w-80 shadow-md rounded-md">
-      <Image 
-        width={image.width} 
-        height={image.height} 
-        src={image.href} 
+    <div
+      className="shadow-md rounded-md
+    h-full w-full bg-gray-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 border border-gray-100"
+    >
+      <Image
+        width={image.width}
+        height={image.height}
+        src={image.href}
         alt="project"
         style={{
-          borderRadius: "0.375rem 0.375rem 0 0"
+          borderRadius: "0.375rem 0.375rem 0 0",
         }}
       />
 
