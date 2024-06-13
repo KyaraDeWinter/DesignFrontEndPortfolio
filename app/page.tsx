@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import Card from "@/components/Card/Card";
+import chillOrbV1Image from "../public/images/chillorbV1.jpg";
+import Image from "next/image";
 
 export default function Home() {
   const chillOrbImages = [
@@ -47,6 +49,7 @@ export default function Home() {
 
   return (
     <main className="w-full flex justify-center">
+      <Image src={chillOrbV1Image} alt="chill orb v1" />
       <div className="grid grid-cols-2 w-3/5 p-0 gap-8">
         <Card
           text="ChillOrb | As shown on the slides, this is a webshop selling a brand new innovative (mockup) product that helps you relax due to colour therapy. The product is a smart orb-like object that changes colour to set the mood as well as playing relaxing music. The web design choices like using a darkened background against bright spotlights are made to mirror the overall vibe of the product."
